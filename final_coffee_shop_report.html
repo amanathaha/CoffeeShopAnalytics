@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Coffee Shop Business Analytics Report</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 20px;
+    color: #333;
+    line-height: 1.6;
+}
+h1, h2 { color: #6f4e37; }
+.metrics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.metric {
+    background: #f5eee8;
+    padding: 15px;
+    flex: 1;
+    min-width: 180px;
+    border-radius: 8px;
+}
+img { max-width: 100%; height: auto; }
+.data-table { border-collapse: collapse; width: 100%; }
+.data-table th, .data-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+.data-table th { background: #6f4e37; color: white; }
+@media print {
+    body { margin: 0; max-width: none; }
+    section { break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+<h1>Coffee Shop Business Analytics Report</h1>
+<p>Generated on: 24 October 2026</p>
+
+<h2>1. Executive Summary</h2>
+<p>This report summarizes coffee shop sales, product performance,
+category revenue, and gross profitability based on the analysed dataset.
+The dataset is simulated for educational purposes.</p>
+
+<h2>2. Key Performance Indicators</h2>
+<div class="metrics">
+    <div class="metric">
+        <strong>Total Revenue</strong><br>
+        Rs. 120,705.00
+    </div>
+    <div class="metric">
+        <strong>Gross Profit</strong><br>
+        Rs. 77,392.00
+    </div>
+    <div class="metric">
+        <strong>Quantity Sold</strong><br>
+        1,114
+    </div>
+    <div class="metric">
+        <strong>Gross Profit Margin</strong><br>
+        64.12%
+    </div>
+</div>
+
+<h2>3. Top 10 Products by Revenue</h2>
+<table border="1" class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Revenue (Rs.)</th>
+    </tr>
+    <tr>
+      <th>product_name</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Veg Sandwich</th>
+      <td>13,310.00</td>
+    </tr>
+    <tr>
+      <th>Mocha</th>
+      <td>10,885.00</td>
+    </tr>
+    <tr>
+      <th>Iced Latte</th>
+      <td>10,420.00</td>
+    </tr>
+    <tr>
+      <th>Cappuccino</th>
+      <td>10,290.00</td>
+    </tr>
+    <tr>
+      <th>Hot Chocolate</th>
+      <td>9,460.00</td>
+    </tr>
+    <tr>
+      <th>Chicken Sandwich</th>
+      <td>9,015.00</td>
+    </tr>
+    <tr>
+      <th>Blueberry Muffin</th>
+      <td>8,780.00</td>
+    </tr>
+    <tr>
+      <th>Chocolate Croissant</th>
+      <td>8,755.00</td>
+    </tr>
+    <tr>
+      <th>Cold Coffee</th>
+      <td>8,275.00</td>
+    </tr>
+    <tr>
+      <th>Cafe Latte</th>
+      <td>8,095.00</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>4. Revenue by Category</h2>
+<table border="1" class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Revenue (Rs.)</th>
+    </tr>
+    <tr>
+      <th>category</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Coffee</th>
+      <td>39,150.00</td>
+    </tr>
+    <tr>
+      <th>Food</th>
+      <td>22,325.00</td>
+    </tr>
+    <tr>
+      <th>Bakery</th>
+      <td>22,275.00</td>
+    </tr>
+    <tr>
+      <th>Cold Drinks</th>
+      <td>18,835.00</td>
+    </tr>
+    <tr>
+      <th>Hot Drinks</th>
+      <td>9,460.00</td>
+    </tr>
+    <tr>
+      <th>Tea</th>
+      <td>8,660.00</td>
+    </tr>
+  </tbody>
+</table>
+<p>The highest-revenue category is <strong>Coffee</strong>.</p>
+
+<h2>5. Visual Analysis</h2>
+
+        <section>
+            <h2>Top 10 Products by Revenue</h2>
+            <img src="top_products_revenue.png" alt="Top 10 Products by Revenue">
+        </section>
+        
+        <section>
+            <h2>Monthly Sales Trend</h2>
+            <img src="monthly_sales_trend.png" alt="Monthly Sales Trend">
+        </section>
+        
+        <section>
+            <h2>Revenue by Category</h2>
+            <img src="category_sales.png" alt="Revenue by Category">
+        </section>
+        
+
+<h2>6. Business Insights</h2>
+<ul>
+    <li>The highest-revenue product is
+        <strong>Veg Sandwich</strong>.</li>
+    <li>The highest-revenue category is <strong>Coffee</strong>.</li>
+    <li>The gross profit margin is 64.12%.</li>
+</ul>
+
+<h2>7. Recommendations</h2>
+<ul>
+    <li>Keep sufficient inventory for high-revenue products.</li>
+    <li>Review low-revenue products before deciding whether to promote them.</li>
+    <li>Monitor product costs, discounts, and profit margins.</li>
+    <li>Use monthly sales patterns to plan stock and promotions.</li>
+</ul>
+
+<h2>8. Limitations</h2>
+<p>The dataset is simulated, so results do not represent a real business.
+Revenue and profit calculations depend on the available prices, costs,
+and discounts. Revenue alone does not establish which products are most
+popular by quantity.</p>
+
+</body>
+</html>

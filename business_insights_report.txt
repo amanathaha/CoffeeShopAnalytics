@@ -1,0 +1,33 @@
+
+COFFEE SHOP BUSINESS ANALYTICS REPORT
+=====================================
+
+1. KEY PERFORMANCE INDICATORS
+
+Total Revenue: Rs. 120,705.00
+Total Quantity Sold: 1114.0
+Gross Profit: Rs. 77,392.00
+Gross Profit Margin: 64.12%
+
+2. PRODUCT PERFORMANCE
+
+Top Product: Veg Sandwich
+Revenue from Top Product: Rs. 13,310.00
+
+3. CATEGORY PERFORMANCE
+
+Top Category: Coffee
+Category Revenue: Rs. 39,150.00
+
+4. BUSINESS INSIGHTS
+
+- The top-selling product by revenue is Veg Sandwich.
+- The highest-revenue category is Coffee.
+- The gross profit margin is 64.12%.
+
+5. BUSINESS RECOMMENDATIONS
+
+- Maintain sufficient stock of the best-performing products.
+- Promote products in lower-revenue categories using offers.
+- Monitor product costs and discounts to protect profit margins.
+- Review monthly sales trends to plan promotions and inventory.
